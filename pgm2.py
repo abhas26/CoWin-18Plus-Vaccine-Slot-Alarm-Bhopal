@@ -41,7 +41,7 @@ while(True):
                 break
     print(flag,"Slots Avaiable")
     if flag>0:
-        winsound.Beep(880,10000)
+        winsound.Beep(640,10000)
     web.refresh()
 input()
 web.close()
