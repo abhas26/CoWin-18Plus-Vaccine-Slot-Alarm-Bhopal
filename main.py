@@ -14,19 +14,7 @@ while(True):
     selectState= web.find_element_by_xpath('/html/body/app-root/div/app-home/div[2]/div/appointment-table/div/div/div/div/div/div/div/div/div/div/div[2]/form/div/div/div[2]/div/div[1]/mat-form-field/div/div[1]')
     selectState.click()
     time.sleep(1)
-    selectState= web.find_element_by_xpath('/html/body/div[2]/div[2]/div/div/div/mat-option[21]/span')
-    selectState.click()
-    time.sleep(1)
-    selectCity= web.find_element_by_xpath('/html/body/app-root/div/app-home/div[2]/div/appointment-table/div/div/div/div/div/div/div/div/div/div/div[2]/form/div/div/div[2]/div/div[2]/mat-form-field/div/div[1]')
-    selectCity.click()
-    time.sleep(1)
-    selectCity= web.find_element_by_xpath('/html/body/div[2]/div[2]/div/div/div/mat-option[9]/span')
-    selectCity.click()
-    time.sleep(1)
-    smt= web.find_element_by_xpath('/html/body/app-root/div/app-home/div[2]/div/appointment-table/div/div/div/div/div/div/div/div/div/div/div[2]/form/div/div/div[2]/div/div[3]/button')
-    smt.click()
-    time.sleep(1)
-
+    
     #18+slots
     smt= web.find_element_by_xpath('//html/body/app-root/div/app-home/div[2]/div/appointment-table/div/div/div/div/div/div/div/div/div/div/div[2]/form/div/div/div[3]/div/div[1]/label')
     smt.click()
